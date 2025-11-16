@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.alvarorf.vehiculosmvc.gui.Ventana">
+	<grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+		<margin top="10" left="10" bottom="10" right="10"/>
+		<constraints>
+			<xy x="20" y="20" width="1380" height="737"/>
+		</constraints>
+		<properties/>
+		<border type="none"/>
+		<children>
+			<grid id="formPanel" layout-manager="FormLayout">
+				<rowspec value="center:d:noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<rowspec value="top:4dlu:noGrow"/>
+				<rowspec value="center:max(d;4px):noGrow"/>
+				<colspec value="fill:d:noGrow"/>
+				<colspec value="left:7dlu:noGrow"/>
+				<colspec value="fill:max(d;4px):grow"/>
+				<constraints>
+					<grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+						<preferred-size width="380" height="-1"/>
+					</grid>
+				</constraints>
+				<properties/>
+				<border type="none"/>
+				<children>
+					<component id="9575a" class="javax.swing.JLabel">
+						<constraints>
+							<grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Tipo Producto"/>
+						</properties>
+					</component>
+					<component id="eb269" class="javax.swing.JRadioButton" binding="kitRadioButton">
+						<constraints>
+							<grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Kit"/>
+						</properties>
+					</component>
+					<component id="1f3" class="javax.swing.JRadioButton" binding="productoQuimicoRadioButton">
+						<constraints>
+							<grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="ProductoQuimico"/>
+						</properties>
+					</component>
+					<component id="a1b2c" class="javax.swing.JRadioButton" binding="componenteRadioButton">
+						<constraints>
+							<grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Componente"/>
+						</properties>
+					</component>
+					<component id="d3e4f" class="javax.swing.JRadioButton" binding="moduloRadioButton">
+						<constraints>
+							<grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Módulo"/>
+						</properties>
+					</component>
+					<component id="g5h6i" class="javax.swing.JRadioButton" binding="otroProductoRadioButton">
+						<constraints>
+							<grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Otro"/>
+						</properties>
+					</component>
+					<component id="d6b0c" class="javax.swing.JLabel">
+						<constraints>
+							<grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Código Barras"/>
+						</properties>
+					</component>
+					<component id="b23f2" class="javax.swing.JTextField" binding="codigoBarrasTxt">
+						<constraints>
+							<grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="3e498" class="javax.swing.JLabel">
+						<constraints>
+							<grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Fabricante"/>
+						</properties>
+					</component>
+					<component id="6b372" class="javax.swing.JTextField" binding="fabricanteTxt">
+						<constraints>
+							<grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="3b2a4" class="javax.swing.JLabel">
+						<constraints>
+							<grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Modelo"/>
+						</properties>
+					</component>
+					<component id="8c3fc" class="javax.swing.JTextField" binding="modeloTxt">
+						<constraints>
+							<grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="precio1" class="javax.swing.JLabel">
+						<constraints>
+							<grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Precio"/>
+						</properties>
+					</component>
+					<component id="precio2" class="javax.swing.JTextField" binding="precioTxt">
+						<constraints>
+							<grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="pq1" class="javax.swing.JLabel" binding="precaucionesLbl">
+						<constraints>
+							<grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Precauciones"/>
+						</properties>
+					</component>
+					<component id="pq2" class="javax.swing.JTextField" binding="precaucionesTxt">
+						<constraints>
+							<grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="k1" class="javax.swing.JLabel" binding="edadMinimaLbl">
+						<constraints>
+							<grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Edad Mínima"/>
+						</properties>
+					</component>
+					<component id="k2" class="javax.swing.JTextField" binding="edadMinimaTxt">
+						<constraints>
+							<grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="c1" class="javax.swing.JLabel" binding="valorLbl">
+						<constraints>
+							<grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Valor"/>
+						</properties>
+					</component>
+					<component id="c2" class="javax.swing.JTextField" binding="valorTxt">
+						<constraints>
+							<grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="m1" class="javax.swing.JLabel" binding="aplicacionLbl">
+						<constraints>
+							<grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Aplicación"/>
+						</properties>
+					</component>
+					<component id="m2" class="javax.swing.JTextField" binding="aplicacionTxt">
+						<constraints>
+							<grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="o1" class="javax.swing.JLabel" binding="notasLbl">
+						<constraints>
+							<grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Notas"/>
+						</properties>
+					</component>
+					<component id="o2" class="javax.swing.JTextField" binding="notasTxt">
+						<constraints>
+							<grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="a8384" class="javax.swing.JLabel" binding="fechaCaducidadLbl">
+						<constraints>
+							<grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Fecha Caducidad"/>
+						</properties>
+					</component>
+					<component id="c2fcf" class="com.github.lgooddatepicker.components.DatePicker" binding="fechaCaducidadDPicker">
+						<constraints>
+							<grid row="16" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="k3" class="javax.swing.JLabel" binding="nivelLbl">
+						<constraints>
+							<grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Nivel"/>
+						</properties>
+					</component>
+					<component id="k4" class="javax.swing.JComboBox" binding="nivelCombo">
+						<constraints>
+							<grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="c3" class="javax.swing.JLabel" binding="valor2Lbl">
+						<constraints>
+							<grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Valor 2"/>
+						</properties>
+					</component>
+					<component id="c4" class="javax.swing.JTextField" binding="valor2Txt">
+						<constraints>
+							<grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+								<preferred-size width="150" height="-1"/>
+							</grid>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties/>
+					</component>
+					<component id="268d0" class="javax.swing.JButton" binding="nuevoButton" default-binding="true">
+						<constraints>
+							<grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Nuevo"/>
+						</properties>
+					</component>
+					<component id="enstock" class="javax.swing.JRadioButton" binding="enStockRadioButton">
+						<constraints>
+							<grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="En Stock"/>
+						</properties>
+					</component>
+					<component id="81ec6" class="javax.swing.JButton" binding="importarButton" default-binding="true">
+						<constraints>
+							<grid row="20" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Importar"/>
+						</properties>
+					</component>
+					<component id="descatalogado" class="javax.swing.JRadioButton" binding="descatalogadoRadioButton">
+						<constraints>
+							<grid row="20" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Descatalogado"/>
+						</properties>
+					</component>
+					<component id="10105" class="javax.swing.JButton" binding="exportarButton" default-binding="true">
+						<constraints>
+							<grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+							<forms/>
+						</constraints>
+						<properties>
+							<text value="Exportar"/>
+						</properties>
+					</component>
+					<component id="227cd" class="javax.swing.JLabel">
+						<constraints>
+							<grid row="22" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+							<forms defaultalign-horz="false"/>
+						</constraints>
+						<properties>
+							<horizontalAlignment value="0"/>
+							<icon value="imagotipo.png"/>
+							<text value=""/>
+						</properties>
+					</component>
+				</children>
+			</grid>
+			<scrollpane id="77351">
+				<constraints>
+					<grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+						<preferred-size width="380" height="-1"/>
+					</grid>
+				</constraints>
+				<properties/>
+				<border type="etched" title="Productos"/>
+				<children>
+					<component id="eb69e" class="javax.swing.JList" binding="list1" default-binding="true">
+						<constraints/>
+						<properties/>
+					</component>
+				</children>
+			</scrollpane>
+		</children>
+	</grid>
+	<buttonGroups>
+		<group name="buttonGroup1">
+			<member id="eb269"/>
+			<member id="1f3"/>
+			<member id="a1b2c"/>
+			<member id="d3e4f"/>
+			<member id="g5h6i"/>
+		</group>
+	</buttonGroups>
+</form>
+

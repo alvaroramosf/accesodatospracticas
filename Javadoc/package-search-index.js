@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.alvarorf.vehiculosmvc"},{"l":"com.alvarorf.vehiculosmvc.base"},{"l":"com.alvarorf.vehiculosmvc.gui"},{"l":"com.alvarorf.vehiculosmvc.util"}]
